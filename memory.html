@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS:GO</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="css/memory.css">
+    <link rel ="icon" href ="img/logo.svg" type="image/x-icon" />
+    <!-- CUSTOM STYLE -->      
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet"> 
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/memory.js"></script>
+  </head>
+  
+  <body class="size-1280">
+    <!-- PREMIUM FEATURES BUTTON -->
+  	<a target="_blank" class="hide-s" href="../template/virtua-premium-responsive-business-template/" style="position:fixed;top:120px;right:-14px;z-index:10;"><img src="img/premium-features.png" alt=""></a>
+    <!-- HEADER -->
+    <header class="position-absolute">
+      <!-- Top Navigation -->
+      <nav class="background-transparent background-primary-dott full-width sticky">          
+        <div class="top-nav"> 
+          <!-- mobile version logo -->              
+          <div class="logo hide-l hide-xl hide-xxl">
+             <a href="strona_glowna.html" class="logo">
+              <!-- Logo White Version -->
+              <img class="logo-white" src="img/logo.svg" alt="">
+              <!-- Logo Dark Version -->
+              <img class="logo-dark" src="img/logo-dark.svg" alt="">
+            </a>
+          </div>                  
+          <p class="nav-text"></p>
+          
+          <!-- left menu items -->
+          <div class="top-nav left-menu">
+            <ul class="right top-ul chevron">
+              <li><a href="strona_glowna.html">Strona główna</a></li>
+              <li><a href="ranking_druzyn.html">Ranking drużyn</a></li>
+              <li><a href="skiny.html">Najdroższe skiny</a></li>
+            </ul>
+          </div>
+
+          <!-- logo -->
+          <div class="logo-menu">
+            <a href="strona_glowna.html" class="logo">
+              <!-- Logo White Version -->
+              <img class="logo-white" src="img/logo.svg" alt="">
+              <!-- Logo Dark Version -->
+              <img class="logo-dark" src="img/logo-dark.svg" alt="">
+            </a>
+          </div>
+
+          <!-- right menu items -->
+          <div class="top-nav right-menu">
+            <ul class="top-ul chevron">
+              <li>
+                <a>Rankingi graczy</a>
+                <ul>
+                  <li><a href="ranking_graczy2020.html">Ranking graczy 2020</a></li>
+                  <li><a href="ranking_graczy2019.html">Ranking graczy 2019</a></li>
+                </ul>
+              </li>
+              <li><a href="memory.html">Gra Memory</a></li>
+              <li><a href="zapisz_druzyne.html">Zapisz drużynę</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- MAIN -->
+    <main>
+      <article>    
+        <!-- Header -->
+        <header class="section background-image text-center" style="background-image:url(img/img-05.jpg)">
+          <h2 class="animated-element slow text-extra-thin text-white text-s-size-30 text-m-size-40 text-size-50 text-line-height-1 margin-bottom-30 margin-top-130">
+            MEMORY GAME
+          </h2>
+          
+          <!-- white full width arrow object -->
+          <img class="arrow-object" src="img/arrow-object-white.svg" alt="">
+        </header>
+        
+        <!-- Section 1 -->
+        <section class="section background-white">
+          <h2>&nbsp;</h2>
+          <div class="gra">
+            <div class="overlay-text visible">
+              Kliknij aby rozpocząć!
+            </div>
+            <div id="game-over-text" class="overlay-text">
+              Nie udało ci się!
+              <span class="overlay-text-small">Kliknij aby zagrać ponownie!</span>
+            </div>
+            <div id="victory-text" class="overlay-text">
+              Udało ci się!
+              <span class="overlay-text-small">Kliknij aby zagrać ponownie!</span>
+            </div>
+            <article>
+              <h2 class="page-title">Zagraj!</h2>
+              <div class="game-container">
+                <div class="game-info-container">
+                  <div class="game-info">
+                    Czas <span id="time-remaining">100</span>
+                  </div>
+                  <div class="game-info">
+                    Obroty <span id="flips">0</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron1.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron2.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron2.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron1.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron3.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron4.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron5.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron3.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron5.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron4.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron7.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron8.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron6.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron7.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron6.png" alt="karta">
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-back card-face">
+                    <img class="card_top" src="img/karta_top_skala1.png" alt="karta">
+                  </div>
+                  <div class="card-front card-face">
+                    <img class="card-value" src="img/bron8.png" alt="karta">
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </article>
+
+      <!-- Section 4 -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <!-- Social -->
+      <div class="background-primary padding text-center">
+        <a href="https://www.facebook.com/Valve"><i class="icon-facebook_circle text-size-25 text-dark"></i></a>
+        <a href="https://twitter.com/csgo"><i class="icon-twitter_circle text-size-25 text-dark"></i></a>
+        <a href="https://www.instagram.com/csgo_dev/?hl=pl"><i class="icon-instagram_circle text-size-25 text-dark"></i></a>
+      </div>
+      <!-- Main Footer -->
+
+      <div class="background-dark">
+        <div class="line">
+          <hr class="break margin-top-bottom-0" style="border-color: #777;">
+        </div>
+      </div>
+      <!-- Bottom Footer -->
+      <section class="padding-2x background-dark full-width">
+        <h2>&nbsp;</h2>
+        <div class="line">
+          <div class="s-12 l-6">
+            <p class="text-size-12">Tomasz Olszewski</p>
+            <p class="text-size-12">Strona robiona z pasją do CS:GO</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="js/responsee.js"></script>
+    <script src="owl-carousel/owl.carousel.js"></script>
+    <script src="js/template-scripts.js"></script>
+  </body>
+</html>

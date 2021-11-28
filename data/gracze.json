@@ -1,0 +1,184 @@
+{
+  "Gracze": [
+    {
+	"pozycja" : "1. ",
+    "flaga" : "https://www.countryflags.io/fr/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28877/top-20-players-of-2019-zywoo-1",
+    "Kraj" : "Francja",
+    "name" : "Mathieu",
+    "nickname" : "ZyWoo",
+    "surname" : "Herbaut"
+    },
+	{
+	"pozycja" : "2. ",
+    "flaga" : "https://www.countryflags.io/ua/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28874/top-20-players-of-2019-s1mple-2",
+    "Kraj" : "Ukraina",
+    "name" : "Aleksandr",
+    "nickname" : "s1mple",
+    "surname" : "Kostyliev"
+    },
+	{
+	"pozycja" : "3. ",
+    "flaga" : "https://www.countryflags.io/dk/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28864/top-20-players-of-2019-device-3",
+    "Kraj" : "Dania",
+    "name" : "Nicolai",
+    "nickname" : "device",
+    "surname" : "Reedtz"
+    },
+	{
+	"pozycja" : "4. ",
+    "flaga" : "https://www.countryflags.io/us/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28858/top-20-players-of-2019-elige-4",
+    "Kraj" : "USA",
+    "name" : "Jonathan",
+    "nickname" : "EliGe",
+    "surname" : "Jabłonowski"
+    },
+	{
+	"pozycja" : "5. ",
+    "flaga" : "https://www.countryflags.io/dk/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28847/top-20-players-of-2019-magisk-5",
+    "Kraj" : "Dania",
+    "name" : "Emil",
+    "nickname" : "Magisk",
+    "surname" : "Reif"
+    },
+	{
+	"pozycja" : "6. ",
+    "flaga" : "https://www.countryflags.io/ru/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28840/top-20-players-of-2019-electronic-6",
+    "Kraj" : "Rosja",
+    "name" : "Denis",
+    "nickname" : "electronic",
+    "surname" : "Sharipov"
+    },
+	{
+	"pozycja" : "7. ",
+    "flaga" : "https://www.countryflags.io/ca/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28837/top-20-players-of-2019-naf-7",
+    "Kraj" : "Kanada",
+    "name" : "Keith",
+    "nickname" : "NAF",
+    "surname" : "Markovic"
+    },
+	{
+	"pozycja" : "8. ",
+    "flaga" : "https://www.countryflags.io/us/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28827/top-20-players-of-2019-brehze-8",
+    "Kraj" : "USA",
+    "name" : "Vincent",
+    "nickname" : "Brehze",
+    "surname" : "Cayonte"
+    },
+	{
+	"pozycja" : "9. ",
+    "flaga" : "https://www.countryflags.io/ca/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28822/top-20-players-of-2019-twistzz-9",
+    "Kraj" : "Kanada",
+    "name" : "Russel",
+    "nickname" : "Twistzz",
+    "surname" : "Van Dulken"
+    },
+	{
+	"pozycja" : "10. ",
+    "flaga" : "https://www.countryflags.io/ee/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28816/top-20-players-of-2019-ropz-10",
+    "Kraj" : "Estonia",
+    "name" : "Robin",
+    "nickname" : "ropz",
+    "surname" : "Kool"
+    },
+	{
+	"pozycja" : "11. ",
+    "flaga" : "https://www.countryflags.io/ba/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28814/top-20-players-of-2019-niko-11",
+    "Kraj" : "Bośnia i Hercegowina",
+    "name" : "Nikola",
+    "nickname" : "NiKo",
+    "surname" : "Kovač"
+    },
+	{
+	"pozycja" : "12. ",
+    "flaga" : "https://www.countryflags.io/tr/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28800/top-20-players-of-2019-woxic-12",
+    "Kraj" : "Bośnia i Hercegowina",
+    "name" : "Özgür",
+    "nickname" : "woxic",
+    "surname" : "Eker"
+    },
+	{
+	"pozycja" : "13. ",
+    "flaga" : "https://www.countryflags.io/fi/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28794/top-20-players-of-2019-sergej-13",
+    "Kraj" : "Finlandia",
+    "name" : "Jere",
+    "nickname" : "sergej",
+    "surname" : "Salo"
+    },
+	{
+	"pozycja" : "14. ",
+    "flaga" : "https://www.countryflags.io/dk/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28786/top-20-players-of-2019-xyp9x-14",
+    "Kraj" : "Dania",
+    "name" : "Andreas",
+    "nickname" : "Xyp9x",
+    "surname" : "Højsleth"
+    },
+	{
+	"pozycja" : "15. ",
+    "flaga" : "https://www.countryflags.io/au/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28777/top-20-players-of-2019-jks-15",
+    "Kraj" : "Australia",
+    "name" : "Justin",
+    "nickname" : "jks",
+    "surname" : "Savageut"
+    },
+	{
+	"pozycja" : "16. ",
+    "flaga" : "https://www.countryflags.io/dk/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28766/top-20-players-of-2019-dupreeh-16",
+    "Kraj" : "Dania",
+    "name" : "Peter",
+    "nickname" : "dupreeh",
+    "surname" : "Rasmussen"
+    },
+	{
+	"pozycja" : "17. ",
+    "flaga" : "https://www.countryflags.io/se/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28764/top-20-players-of-2019-krimz-17",
+    "Kraj" : "Szwecja",
+    "name" : "Freddy",
+    "nickname" : "KRIMZ",
+    "surname" : "Johansson"
+    },
+	{
+	"pozycja" : "18. ",
+    "flaga" : "https://www.countryflags.io/bg/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28754/top-20-players-of-2019-cerq-18",
+    "Kraj" : "Bułgaria",
+    "name" : "Tsvetelin",
+    "nickname" : "CeRq",
+    "surname" : "Dimitrov"
+    },
+	{
+	"pozycja" : "19. ",
+    "flaga" : "https://www.countryflags.io/se/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28753/top-20-players-of-2019-brollan-19",
+    "Kraj" : "Szwecja",
+    "name" : "Ludvig",
+    "nickname" : "Brollan",
+    "surname" : "Brolin"
+    },
+	{
+	"pozycja" : "20. ",
+    "flaga" : "https://www.countryflags.io/us/shiny/16.png",
+    "hltv" : "https://www.hltv.org/news/28751/top-20-players-of-2019-ethan-20",
+    "Kraj" : "USA",
+    "name" : "Ethan",
+    "nickname" : "Ethan",
+    "surname" : "Arnold"
+    }
+  ]
+}

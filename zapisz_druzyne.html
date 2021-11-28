@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS:GO</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel ="icon" href ="img/logo.svg" type="image/x-icon" />
+    <!-- CUSTOM STYLE -->      
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet"> 
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+  </head>
+
+  <body class="size-1280">
+    <!-- PREMIUM FEATURES BUTTON -->
+  	<a target="_blank" class="hide-s" href="../template/virtua-premium-responsive-business-template/" style="position:fixed;top:120px;right:-14px;z-index:10;"><img src="img/premium-features.png" alt=""></a>
+    <!-- HEADER -->
+    <header class="position-absolute">
+      <!-- Top Navigation -->
+      <nav class="background-transparent background-primary-dott full-width sticky">          
+        <div class="top-nav"> 
+          <!-- mobile version logo -->
+          <div class="logo hide-l hide-xl hide-xxl">
+            <a href="strona_glowna.html" class="logo">
+              <!-- Logo White Version -->
+              <img class="logo-white" src="img/logo.svg" alt="">
+              <!-- Logo Dark Version -->
+              <img class="logo-dark" src="img/logo-dark.svg" alt="">
+            </a>
+          </div>
+          <p class="nav-text"></p>
+
+          <!-- left menu items -->
+          <div class="top-nav left-menu">
+            <ul class="right top-ul chevron">
+              <li><a href="strona_glowna.html">Strona główna</a></li>
+              <li><a href="ranking_druzyn.html">Ranking drużyn</a></li>
+              <li><a href="skiny.html">Najdroższe skiny</a></li>
+            </ul>
+          </div>
+
+          <!-- logo -->
+          <div class="logo-menu">
+            <a href="strona_glowna.html" class="logo">
+              <!-- Logo White Version -->
+              <img class="logo-white" src="img/logo.svg" alt="">
+              <!-- Logo Dark Version -->
+              <img class="logo-dark" src="img/logo-dark.svg" alt="">
+            </a>
+          </div>
+
+          <!-- right menu items -->
+          <div class="top-nav right-menu">
+            <ul class="top-ul chevron">
+              <li>
+                <a>Rankingi graczy</a>
+                <ul>
+                  <li><a href="ranking_graczy2020.html">Ranking graczy 2020</a></li>
+                  <li><a href="ranking_graczy2019.html">Ranking graczy 2019</a></li>
+                </ul>
+              </li>
+              <li><a href="memory.html">Gra Memory</a></li>
+              <li><a href="zapisz_druzyne.html">Zapisz drużynę</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+        
+        <!-- Section 3 -->
+    <main>
+        <section class="section background-dark">
+          <div class="s-12 m-12 l-4 center">
+            <h3 class="text-size-30 margin-bottom-40 text-center"><b>Zgłoś drużynę do turnieju</b></h3>
+            <form class="customform text-white" method="post" id="form">
+              <div class="line">
+                <div class="margin">
+                  <div class="s-12 m-12 l-6">
+                    <b>Nazwa drużyny</b>
+                    <input name="nazwa" class="required email" placeholder="Nazwa drużyny" title="Nazwa drużyny" type="text" id="nazwa" />
+                    <span id="nazwa_error" class="czerwone"></span><br />
+                    <b>Pierwszy gracz:</b>
+                    <input name="nick" class="required email" placeholder="Nick" title="Twój nick" type="text" id="nick"/>
+                    <span id="nick_error" class="czerwone"></span><br />
+                      <b>Ilość godzin:</b>
+                      <input name="godziny" class="required email" placeholder="Godziny w grze" title="Twoja ilość godzin" type="text" id="godziny"/>
+                    <span id="godziny_error" class="czerwone"></span><br />
+                    </div>
+                <div class="s-12">
+                    <b>Pozycja:</b>
+
+                    <details class="custom-select">
+                      <summary class="radios">
+                        <input type="radio" name="pozycja" id="Sniper" value = "Sniper" title="Sniper" checked>
+                        <input type="radio" name="pozycja" id="IGL" value = "IGL" title="IGL">
+                        <input type="radio" name="pozycja" id="Entry" value = "Entry" title="Entry fragger">
+                        <input type="radio" name="pozycja" id="Lurker" value = "Lurker" title="Lurker">
+                        <input type="radio" name="pozycja" id="Support" value = "Support" title="Support">
+                        <span id="pozycja_error1" class="czerwone"></span><br />
+                      </summary>
+                      <div class="list">
+                        <label for="sniper">Sniper</label>
+                        <label for="igl">IGL</label>
+                        <label for="entry">Entry fragger</label>
+                        <label for="lurk">Lurker</label>
+                        <label for="sup">Support</label>
+                      </div>
+                    </details>
+                  </div>
+                </div>
+              </div>
+              <div class="line">
+                <div class="margin">
+                  <div class="s-12 m-12 l-6">
+                    <b>Drugi gracz</b>
+                    <input name="nick" class="required email" placeholder="Nick" title="Twój nick" type="text" id="nick2"/>
+                    <span id="nick_error2" class="czerwone"></span><br />
+                    <b>Ilość godzin:</b>
+                    <input name="godziny" class="required email" placeholder="Godziny w grze" title="Twoja ilość godzin" type="text" id="godziny2"/>
+                    <span id="godziny_error2" class="czerwone"></span><br />
+                  </div>
+                  <div class="s-12">
+                    <b>Pozycja:</b>
+
+                    <details class="custom-select">
+                      <summary class="radios">
+                        <input type="radio" name="pozycja1" id="sniper1" value = "Sniper" title="Sniper" checked>
+                        <input type="radio" name="pozycja1" id="igl1" value = "IGL" title="IGL">
+                        <input type="radio" name="pozycja1" id="entry1" value = "Entry" title="Entry fragger">
+                        <input type="radio" name="pozycja1" id="lurk1" value = "Lurker" title="Lurker">
+                        <input type="radio" name="pozycja1" id="sup1" value="Support" title="Support">
+                        <span id="pozycja_error2" class="czerwone"></span><br />
+                      </summary>
+                      <div class="list">
+                        <label for="sniper1">Sniper</label>
+                        <label for="igl1">IGL</label>
+                        <label for="entry1">Entry fragger</label>
+                        <label for="lurk1">Lurker</label>
+                        <label for="sup1">Support</label>
+                      </div>
+                    </details>
+                  </div>
+                </div>
+              </div>
+              <div class="line">
+                <div class="margin">
+                  <div class="s-12 m-12 l-6">
+                    <b>Trzeci gracz:</b>
+                    <input name="nick" class="required email" placeholder="Nick" title="Twój nick" type="text" id="nick3" />
+                    <span id="nick_error3" class="czerwone"></span><br />
+                    <b>Ilość godzin:</b>
+                    <input name="godziny" class="required email" placeholder="Godziny w grze" title="Twoja ilość godzin" type="text" id="godziny3" />
+                    <span id="godziny_error3" class="czerwone"></span><br />
+                  </div>
+                  <div class="s-12">
+                    <b>Pozycja:</b>
+
+                    <details class="custom-select">
+                      <summary class="radios">
+                        <input type="radio" name="pozycja2" id="sniper2" value="Sniper" title="Sniper" checked>
+                        <input type="radio" name="pozycja2" id="igl2" value = "IGL" title="IGL">
+                        <input type="radio" name="pozycja2" id="entry2" value="Entry" title="Entry fragger">
+                        <input type="radio" name="pozycja2" id="lurk2" value = "Lurker" title="Lurker">
+                        <input type="radio" name="pozycja2" id="sup2" value = "Support" title="Support">
+                        <span id="pozycja_error3" class="czerwone"></span><br />
+                      </summary>
+                      <div class="list">
+                        <label for="sniper2">Sniper</label>
+                        <label for="igl2">IGL</label>
+                        <label for="entry2">Entry fragger</label>
+                        <label for="lurk2">Lurker</label>
+                        <label for="sup2">Support</label>
+                      </div>
+                    </details>
+                  </div>
+                </div>
+              </div>
+              <div class="line">
+                <div class="margin">
+                  <div class="s-12 m-12 l-6">
+                    <b>Czwarty gracz</b>
+                    <input name="nick" class="required email" placeholder="Nick" title="Twój nick" type="text" id="nick4"/>
+                    <span id="nick_error4" class="czerwone"></span><br />
+                    <b>Ilość godzin:</b>
+                    <input name="godziny" class="required email" placeholder="Godziny w grze" title="Twoja ilość godzin" type="text" id="godziny4"/>
+                    <span id="godziny_error4" class="czerwone"></span><br />
+                  </div>
+                  <div class="s-12">
+                    <b>Pozycja:</b>
+
+                    <details class="custom-select">
+                      <summary class="radios">
+                        <input type="radio" name="pozycja3" id="sniper3" value = "Sniper" title="Sniper" checked>
+                        <input type="radio" name="pozycja3" id="igl3" value = "IGL" title="IGL">
+                        <input type="radio" name="pozycja3" id="entry3" value = "Entry" title="Entry fragger">
+                        <input type="radio" name="pozycja3" id="lurk3" value = "Lurker" title="Lurker">
+                        <input type="radio" name="pozycja3" id="sup3" value = "Support" title="Support">
+                        <span id="pozycja_error4" class="czerwone"></span><br />
+                      </summary>
+                      <div class="list">
+                        <label for="sniper3">Sniper</label>
+                        <label for="igl3">IGL</label>
+                        <label for="entry3">Entry fragger</label>
+                        <label for="lurk3">Lurker</label>
+                        <label for="sup3">Support</label>
+                      </div>
+                    </details>
+                  </div>
+                </div>
+              </div>
+              <div class="line">
+                <div class="margin">
+                  <div class="s-12 m-12 l-6">
+                    <b>Piąty gracz</b>
+                    <input name="nick" class="required email" placeholder="Nick" title="Twój nick" type="text" id="nick5"/>
+                    <span id="nick_error5" class="czerwone"></span><br />
+                    <b>Ilość godzin:</b>
+                    <input name="godziny" class="required email" placeholder="Godziny w grze" title="Twoja ilość godzin" type="text" id="godziny5"/>
+                    <span id="godziny_error5" class="czerwone"></span><br />
+                  </div>
+                  <div class="s-12">
+                    <b>Pozycja:</b>
+
+                    <details class="custom-select">
+                      <summary class="radios">
+                        <input type="radio" name="pozycja4" id="sniper4" value = "Sniper" title="Sniper" checked>
+                        <input type="radio" name="pozycja4" id="igl4" value = "IGL" title="IGL">
+                        <input type="radio" name="pozycja4" id="entry4" value = "Entry" title="Entry fragger">
+                        <input type="radio" name="pozycja4" id="lurk4" value = "Lurker" title="Lurker">
+                        <input type="radio" name="pozycja4" id="sup4" value = "Support" title="Support">
+                        <span id="pozycja_error5" class="czerwone"></span><br />
+                      </summary>
+                      <div class="list">
+                        <label for="sniper4">Sniper</label>
+                        <label for="igl4">IGL</label>
+                        <label for="entry4">Entry fragger</label>
+                        <label for="lurk4">Lurker</label>
+                        <label for="sup4">Support</label>
+                      </div>
+                    </details>
+                  </div>
+                </div>
+              </div>
+              <div class="line">
+                <div class="margin">
+                  <div class="s-12 m-12 l-6">
+                    <b>Ulubione mapy:</b>
+                    <div class="container">
+                      <ul class="ks-cboxtags">
+                        <li><input type="checkbox" id="checkboxOne" value="mirage"><label for="checkboxOne">Mirage</label></li>
+                        <li><input type="checkbox" id="checkboxTwo" value="dust2" ><label for="checkboxTwo">Dust2</label></li>
+                        <li><input type="checkbox" id="checkboxThree" value="inferno" ><label for="checkboxThree">Inferno</label></li>
+                        <li><input type="checkbox" id="checkboxFour" value="overpass"><label for="checkboxFour">Overpass</label></li>
+                        <li><input type="checkbox" id="checkboxFive" value="vertigo"><label for="checkboxFive">Vertigo</label></li>
+                        <li><input type="checkbox" id="checkboxSix" value="nuke" ><label for="checkboxSix">Nuke</label></li>
+                        <li><input type="checkbox" id="checkboxSeven" value="ancient"><label for="checkboxSeven">Ancient</label></li>
+                      </ul>
+                    </div>
+                    <span id="mapy_error" class="czerwone"></span><br />
+                  </div>
+                </div>
+              </div>
+              <div class="s-12"><button class="button border-radius text-white background-primary" type="button" onclick="sprawdz()">Wyślij zgłoszenie</button></div>
+              <div class="s-12"><button class="button border-radius text-white background-primary" type="button" onclick="wyswietl()">Pokaż zapisane drużyny</button></div>
+              <div class="s-12"><button class="button border-radius text-white background-primary" type="button" onclick="sprawdz2()">Edytuj wybraną drużyne</button></div>
+              <div class="s-12"><button class="button border-radius text-white background-primary" type="button" onclick="wyczysc()">Usuń zapisane drużyny</button></div>
+            
+            </form>
+          </div>
+          <div id ="druzyny"></div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <!-- Social -->
+      <div class="background-primary padding text-center">
+        <a href="https://www.facebook.com/Valve"><i class="icon-facebook_circle text-size-25 text-dark"></i></a>
+        <a href="https://twitter.com/csgo"><i class="icon-twitter_circle text-size-25 text-dark"></i></a>
+        <a href="https://www.instagram.com/csgo_dev/?hl=pl"><i class="icon-instagram_circle text-size-25 text-dark"></i></a>
+      </div>
+      <!-- Main Footer -->
+
+      <div class="background-dark">
+        <div class="line">
+          <hr class="break margin-top-bottom-0" style="border-color: #777;">
+        </div>
+      </div>
+      <!-- Bottom Footer -->
+      <section class="padding-2x background-dark full-width">
+        <h2>&nbsp;</h2>
+        <div class="line">
+          <div class="s-12 l-6">
+            <p class="text-size-12">Tomasz Olszewski</p>
+            <p class="text-size-12">Strona robiona z pasją do CS:GO</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="js/responsee.js"></script>
+    <script src="owl-carousel/owl.carousel.js"></script>
+    <script src="js/template-scripts.js"></script>
+    <script src="js/walidacja.js"></script>
+  </body>
+</html>
